@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+USAGE.md
+setup.py
+pyfilecrypto/__init__.py
+pyfilecrypto/crypto.py
+pyfilecrypto.egg-info/PKG-INFO
+pyfilecrypto.egg-info/SOURCES.txt
+pyfilecrypto.egg-info/dependency_links.txt
+pyfilecrypto.egg-info/requires.txt
+pyfilecrypto.egg-info/top_level.txt
+tests/test_crypto.py
