@@ -45,4 +45,14 @@ def decFile(filename, save_as, keyfile):
     with open(save_as, "wb") as file:
         file.write(decData)
     
-    
+def Encrypt(filename):
+    """
+    Encrypt files with original filenames and extensions
+    """
+    encFile(filename, filename, "alpha")
+    encFile(filename, filename, "bravo")
+    encFile(filename, filename, "charlie")
+def Decrypt(filename):
+    decFile(filename, filename, "charlie")
+    decFile(filename, filename, "bravo")
+    decFile(filename, filename, "alpha")
