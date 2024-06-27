@@ -56,3 +56,8 @@ def Decrypt(filename):
     decFile(filename, filename, "charlie")
     decFile(filename, filename, "bravo")
     decFile(filename, filename, "alpha")
+def crypt(filename, method):
+    if method == "encrypt":
+        Encrypt(filename)
+    elif method == "decrypt":
+        Decrypt(filename)
