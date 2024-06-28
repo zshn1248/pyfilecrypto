@@ -1,9 +1,8 @@
 # PyFileCrypto
-# Crypto Module
 
 ## Overview
 
-The Crypto Module is a Python library for encrypting and decrypting files, compressing and extracting zip files with password protection. It utilizes `cryptography.fernet` for encryption and `pyzipper` for handling zip files with AES encryption.
+The PyFileCrypto Module is a Python library for encrypting and decrypting files, compressing and extracting zip files with password protection. It utilizes `cryptography.fernet` for encryption and `pyzipper` for handling zip files with AES encryption.
 
 ## Features
 
