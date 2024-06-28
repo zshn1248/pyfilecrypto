@@ -1,12 +1,22 @@
 # PyFileCrypto
+# Crypto Module
 
-PyFileCrypto is a Python module for easy encryption and decryption of files using the `cryptography` library. It provides a simple interface to generate encryption keys, encrypt files, and decrypt files securely.
+## Overview
+
+The Crypto Module is a Python library for encrypting and decrypting files, compressing and extracting zip files with password protection. It utilizes `cryptography.fernet` for encryption and `pyzipper` for handling zip files with AES encryption.
+
+## Features
+
+- **File Encryption and Decryption**: Encrypt and decrypt files with strong AES encryption.
+- **Key Management**: Generate and securely store keys for encryption and decryption.
+- **Zip Compression**: Compress files into zip archives.
+- **Password-Protected Zip Files**: Create and extract zip files with password protection.
 
 ## Installation
 
-You can install PyFileCrypto using pip:
+To install the Crypto Module, use the following command:
 
-```bash
+```sh
 pip install pyfilecrypto
 ```
 
@@ -32,3 +42,11 @@ crypt(filename = "test.txt", method = "encrypt")
 from pyfilecrypto.crypto import *
 crypt(filename = "test.txt", method = "decrypt")
 ```
+
+### or
+``` python
+from pyfilecrypto.crypto import Crypto
+Crypto.crypt(filename = "test.txt", method = "encrypt", password = "password")
+Crypto.crypt(filename = "test.txt", method = "decrypt", password = "password")
+```
+

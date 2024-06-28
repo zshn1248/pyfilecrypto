@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pyfilecrypto",
-    version="0.2.0",
+    version="1.0.0",
     author="Muhammad Zeeshan Saeed",
     author_email="zshn1248@gmail.com",
     description="A module for file encryption and decryption",
@@ -21,6 +21,8 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         'cryptography',
+        'pyzipper',
+        'os',
     ],
     include_package_data=True,
 )
