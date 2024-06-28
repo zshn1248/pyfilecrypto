@@ -22,7 +22,6 @@ setup(
     install_requires=[
         'cryptography',
         'pyzipper',
-        'os',
     ],
     include_package_data=True,
 )
