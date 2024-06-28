@@ -17,8 +17,18 @@ from pyfilecrypto import crypto
 crypto.encFile("test.txt", "test.enc", "my_secret.key")
 ```
 
-## Decrypt a File
+### Decrypt a File
 ``` python
 from pyfilecrypto import crypto
 crypto.decFile("test.enc", "test.txt", "my_secret.key")
+```
+### Generate Encryption Key and Encrypt File
+``` python
+from pyfilecrypto.crypto import *
+crypt(filename = "test.txt", method = "encrypt")
+```
+### Decrypt
+```python
+from pyfilecrypto.crypto import *
+crypt(filename = "test.txt", method = "decrypt")
 ```
