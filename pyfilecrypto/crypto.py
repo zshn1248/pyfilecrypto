@@ -1,4 +1,3 @@
-import zipfile
 import pyzipper
 from cryptography.fernet import Fernet
 import os
