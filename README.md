@@ -66,4 +66,8 @@ from pyfilecrypto.crypto import Crypto
 Crypto.crypt(filename = "test.txt", method = "encrypt", password = "password")
 Crypto.crypt(filename = "test.txt", method = "decrypt", password = "password")
 ```
+## Documentation
+For detailed documentation, please refer to the [DOCUMENTATION.md](https://github.com/zshn1248/pyfilecrypto/blob/main/DOCUMENTATION.md) file.
 
+## License
+Please refer to LICENSE [here](https://github.com/zshn1248/pyfilecrypto/blob/main/LICENSE.md)
