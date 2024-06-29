@@ -2,8 +2,6 @@ from setuptools import setup, find_packages
 
 with open("DOCUMENTATION.md", "r") as fh:
     long_description = fh.read()
-with open("DOCUMENTATION.md", "r") as doc:
-    documentation = doc.read()
 setup(
     name="pyfilecrypto",
     version="1.0.3",
