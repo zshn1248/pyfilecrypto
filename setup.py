@@ -6,7 +6,7 @@ with open("DOCUMENTATION.md", "r") as doc:
     documentation = doc.read()
 setup(
     name="pyfilecrypto",
-    version="1.0.2",
+    version="1.0.3",
     author="Muhammad Zeeshan Saeed",
     author_email="zshn1248@gmail.com",
     description="A module for file encryption and decryption",
