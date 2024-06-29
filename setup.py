@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
+with open("DOCUMENTATION.md", "r") as doc:
+    documentation = doc.read()
 setup(
     name="pyfilecrypto",
     version="1.0.2",
@@ -11,6 +12,8 @@ setup(
     description="A module for file encryption and decryption",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    documentation = documentation,
+    documentation_content_type = "text/markdown",
     url="https://github.com/zshn1248/pyfilecrypto",
     packages=find_packages(),
     classifiers=[
