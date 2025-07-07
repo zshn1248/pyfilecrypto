@@ -96,3 +96,8 @@ venv.bak/
 Thumbs.db
 pypi_token.txt
 download_stat.py
+
+
+# Local configuration files
+key
+key.enc

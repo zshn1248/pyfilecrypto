@@ -105,5 +105,5 @@ class Crypto:
 # Encrypt
 # Crypto.crypt("m.txt", "encrypt", "Zeeshan")
 
-# Decrypt
+# # Decrypt
 # Crypto.crypt("m.txt", "decrypt", "Zeeshan")
