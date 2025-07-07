@@ -5,7 +5,7 @@ with open("DOCUMENTATION.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pyfilecrypto",
-    version="1.0.3",
+    version="1.0.4",
     author="Muhammad Zeeshan Saeed",
     author_email="zshn1248@gmail.com",
     description="A module for file encryption, decryption, and steganography",
